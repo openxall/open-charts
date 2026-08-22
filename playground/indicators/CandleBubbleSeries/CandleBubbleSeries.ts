@@ -118,7 +118,7 @@ interface CandleBubbleParams {
   bearColor: string;
 }
 
-interface CandleBubbleConfig {
+export interface CandleBubbleConfig {
   id: string;
   label: string;
   color: string;

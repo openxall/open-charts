@@ -1,5 +1,5 @@
 // OPEN-CHARTS
-// Copyright (C) 2026 Juan José Caballero Rey - https://github.com/rey-sudo
+// Copyright (C) 2026 Juan José Caballero Rey
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -170,6 +170,8 @@ export class ChartSeries<
    * @returns The series instance.
    */
   public setData(data: readonly TData[]): void {
+    if(!data) return;
+    
     if (data.length === 0) {
       return;
     }
@@ -194,6 +196,8 @@ export class ChartSeries<
   }
 
   public patchData(data: readonly TData[]): void {
+    if(!data) return;
+
     if (data.length === 0) {
       return;
     }
