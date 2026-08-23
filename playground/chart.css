@@ -21,9 +21,160 @@ small	12px
 
 9px	
 
-
-
 */
+
+:root {
+  /* Blue */
+  --ui-color-blue-50: #dff1ff;
+  --ui-color-blue-100: #cfeaff;
+  --ui-color-blue-200: #bee3ff;
+  --ui-color-blue-300: #aedcff;
+  --ui-color-blue-400: #9ed5ff;
+  --ui-color-blue-500: #8eceff;
+  --ui-color-blue-600: #7ec7ff;
+  --ui-color-blue-700: #6ec0ff;
+  --ui-color-blue-800: #5db9ff;
+  --ui-color-blue-900: #3dabff;
+  --ui-color-blue-925: #389dea;
+  --ui-color-blue-950: #338fd5;
+  --ui-color-blue-1000: #2e80bf;
+  --ui-color-blue-1100: #2972aa;
+  --ui-color-blue-1200: #246495;
+  --ui-color-blue-1300: #1f5680;
+  --ui-color-blue-1400: #19476a;
+  --ui-color-blue-1500: #143955;
+  --ui-color-blue-1600: #0f2b40;
+
+  /* Gray */
+  --ui-color-gray-50: #f1dede;
+  --ui-color-gray-100: #eacdcd;
+  --ui-color-gray-200: #e2bcbc;
+  --ui-color-gray-300: #dbacac;
+  --ui-color-gray-400: #d49b9b;
+  --ui-color-gray-500: #cd8a8a;
+  --ui-color-gray-600: #c67a7a;
+  --ui-color-gray-700: #bf6969;
+  --ui-color-gray-800: #b75858;
+  --ui-color-gray-900: #a93737;
+  --ui-color-gray-925: #9b3232;
+  --ui-color-gray-950: #8d2e2e;
+  --ui-color-gray-1000: #7f2929;
+  --ui-color-gray-1100: #712525;
+  --ui-color-gray-1200: #632020;
+  --ui-color-gray-1300: #551c1c;
+  --ui-color-gray-1400: #461717;
+  --ui-color-gray-1500: #381212;
+  --ui-color-gray-1600: #2a0e0e;
+
+  /* Red */
+  --ui-color-red-50: #ffe1e1;
+  --ui-color-red-100: #ffd3d3;
+  --ui-color-red-200: #ffc4c4;
+  --ui-color-red-300: #ffb5b5;
+  --ui-color-red-400: #ffa6a6;
+  --ui-color-red-500: #ff9797;
+  --ui-color-red-600: #ff8888;
+  --ui-color-red-700: #ff7a7a;
+  --ui-color-red-800: #ff6b6b;
+  --ui-color-red-900: #ff4d4d;
+  --ui-color-red-925: #ea4747;
+  --ui-color-red-950: #d54040;
+  --ui-color-red-1000: #bf3a3a;
+  --ui-color-red-1100: #aa3333;
+  --ui-color-red-1200: #952d2d;
+  --ui-color-red-1300: #802727;
+  --ui-color-red-1400: #6a2020;
+  --ui-color-red-1500: #551a1a;
+  --ui-color-red-1600: #401313;
+
+  /* Green */
+  --ui-color-green-50: #e6fff7;
+  --ui-color-green-100: #d9fff2;
+  --ui-color-green-200: #ccffee;
+  --ui-color-green-300: #bfffea;
+  --ui-color-green-400: #b3ffe6;
+  --ui-color-green-500: #a6ffe1;
+  --ui-color-green-600: #99ffdd;
+  --ui-color-green-700: #8cffd9;
+  --ui-color-green-800: #80ffd5;
+  --ui-color-green-900: #66ffcc;
+  --ui-color-green-925: #5eeabb;
+  --ui-color-green-950: #55d5aa;
+  --ui-color-green-1000: #4dbf99;
+  --ui-color-green-1100: #44aa88;
+  --ui-color-green-1200: #3c9577;
+  --ui-color-green-1300: #338066;
+  --ui-color-green-1400: #2b6a55;
+  --ui-color-green-1500: #225544;
+  --ui-color-green-1600: #1a4033;
+
+  /* Orange */
+  --ui-color-orange-50: #f7dfd5;
+  --ui-color-orange-100: #f3cfc0;
+  --ui-color-orange-200: #efbfaa;
+  --ui-color-orange-300: #ebaf95;
+  --ui-color-orange-400: #e89f80;
+  --ui-color-orange-500: #e48f6b;
+  --ui-color-orange-600: #e07f56;
+  --ui-color-orange-700: #dc6f41;
+  --ui-color-orange-800: #d85f2b;
+  --ui-color-orange-900: #d03f01;
+  --ui-color-orange-925: #bf3a01;
+  --ui-color-orange-950: #ad3501;
+  --ui-color-orange-1000: #9c2f01;
+  --ui-color-orange-1100: #8b2a01;
+  --ui-color-orange-1200: #792501;
+  --ui-color-orange-1300: #682001;
+  --ui-color-orange-1400: #571a00;
+  --ui-color-orange-1500: #451500;
+  --ui-color-orange-1600: #341000;
+
+  /* Purple */
+  --ui-color-purple-50: #ffe2ff;
+  --ui-color-purple-100: #ffd4ff;
+  --ui-color-purple-200: #ffc5ff;
+  --ui-color-purple-300: #ffb7ff;
+  --ui-color-purple-400: #ffa9ff;
+  --ui-color-purple-500: #ff9aff;
+  --ui-color-purple-600: #ff8cff;
+  --ui-color-purple-700: #ff7dff;
+  --ui-color-purple-800: #ff6fff;
+  --ui-color-purple-900: #ff52ff;
+  --ui-color-purple-925: #ea4bea;
+  --ui-color-purple-950: #d544d5;
+  --ui-color-purple-1000: #bf3ebf;
+  --ui-color-purple-1100: #aa37aa;
+  --ui-color-purple-1200: #953095;
+  --ui-color-purple-1300: #802980;
+  --ui-color-purple-1400: #6a226a;
+  --ui-color-purple-1500: #551b55;
+  --ui-color-purple-1600: #401540;
+
+  /* Yellow */
+  --ui-color-yellow-50: #ffffe0;
+  --ui-color-yellow-100: #feffd1;
+  --ui-color-yellow-200: #feffc2;
+  --ui-color-yellow-300: #feffb2;
+  --ui-color-yellow-400: #feffa3;
+  --ui-color-yellow-500: #fdff94;
+  --ui-color-yellow-600: #fdff84;
+  --ui-color-yellow-700: #fdff75;
+  --ui-color-yellow-800: #fdff66;
+  --ui-color-yellow-900: #fcff47;
+  --ui-color-yellow-925: #e7ea41;
+  --ui-color-yellow-950: #d2d53b;
+  --ui-color-yellow-1000: #bdbf35;
+  --ui-color-yellow-1100: #a8aa2f;
+  --ui-color-yellow-1200: #939529;
+  --ui-color-yellow-1300: #7e8024;
+  --ui-color-yellow-1400: #696a1e;
+  --ui-color-yellow-1500: #545518;
+  --ui-color-yellow-1600: #3f4012;
+
+  /* Absolute */
+  --ui-color-white: #ffffff;
+  --ui-color-black: #000000;
+}
 
 /* ── TOP BAR ── */
 #topbar {
@@ -217,10 +368,11 @@ canvas.pricescale-canvas {
 }
 
 #chart-indicators {
-  top: 2.5rem;
+  top: 2.25rem;
   left: 1rem;
   gap: 0.5rem;
   z-index: 10;
+  opacity: 0.8;
   display: flex;
   position: absolute;
   flex-direction: column;

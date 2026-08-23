@@ -1,9 +1,9 @@
 import { decode } from "@msgpack/msgpack";
 import { createChart } from "../src/index";
-import { ADXSeries } from "./indicators/ADXSeries/ADXSeries";
-import { CandleBubbleSeries } from "./indicators/CandleBubbleSeries/CandleBubbleSeries";
-import { EMASeries } from "./indicators/EMASeries/EMASeries";
-import { SqueezeSeries } from "./indicators/Squeeze/SqueezeSeries";
+import { ADXSeries } from "./series/ADXSeries/ADXSeries";
+import { CandleBubbleSeries } from "./series/CandleBubbleSeries/CandleBubbleSeries";
+import { EMASeries } from "./series/EMASeries/EMASeries";
+import { SqueezeSeries } from "./series/Squeeze/SqueezeSeries";
 
 let chart1 = createChart(document.getElementById("chart-area")!);
 chart1.api.applyOptions({ legend: "Bitcoin/Tether USD · 4h" });

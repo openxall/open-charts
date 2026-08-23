@@ -89,21 +89,26 @@ export const DEFAULT_OPTIONS: ChartOptions = {
   fontFamily: "Inter, sans-serif",
 
   colors: {
-    bg: "#0F0F0F",
-    bg2: "#1A1A1A",
-    bg3: "#242424",
+    // Backgrounds
+    bg: "transparent",
+    bg2: "transparent",
+    bg3: "rgba(255,255,255,0.1)",
 
-    grid: "rgba(42,42,42,0.5)",
-    gridAlt: "rgba(42,42,42,0.6)",
+    // Grid
+    grid: "rgba(42,46,57,0.50)",
+    gridAlt: "rgba(42,46,57,0.65)",
 
-    text: "#E4E4E7",
-    textDim: "#A1A1AA",
+    // Text
+    text: "#D1D4DC",
+    textDim: "#787B86",
 
+    // Candles / Trading
     bull: "#089981",
     bear: "#F23645",
     bullDim: "rgba(8,153,129,0.15)",
     bearDim: "rgba(242,54,69,0.15)",
 
+    // Lines
     line: "#2962FF",
     area1: "rgba(41,98,255,0.28)",
     area2: "rgba(41,98,255,0)",
@@ -111,13 +116,16 @@ export const DEFAULT_OPTIONS: ChartOptions = {
     bb: "#2962FF",
     bbFill: "rgba(41,98,255,0.05)",
 
-    cross: "rgba(228,228,231,0.20)",
+    // Crosshair
+    cross: "rgba(120,123,134,0.25)",
     crossPt: "#2962FF",
 
-    vol: "rgba(100,100,100,0.25)",
-    volBull: "rgba(8,153,129,0.3)",
-    volBear: "rgba(242,54,69,0.3)",
+    // Volume
+    vol: "rgba(120,123,134,0.25)",
+    volBull: "rgba(8,153,129,0.30)",
+    volBear: "rgba(242,54,69,0.30)",
 
+    // Accent
     accent: "#2962FF",
   },
 };
