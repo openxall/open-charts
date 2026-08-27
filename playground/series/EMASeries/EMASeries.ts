@@ -30,7 +30,7 @@ interface EMAParams {
   lineWidth: number;
 }
 
-interface EMAConfig {
+export interface EMAConfig {
   id: string;
   label: string;
   color: string;
@@ -39,7 +39,7 @@ interface EMAConfig {
   params: EMAParams;
 }
 
-export const EMASeries = (config: EMAConfig) => {
+export const EMA = (config: EMAConfig) => {
   const series: SeriesDefinition<EMAValue, EMAValue, EMAParams> = {
     id: config.id,
     label: config.label,
@@ -62,7 +62,7 @@ export const EMASeries = (config: EMAConfig) => {
       priceMax: number,
     ): void {
       ctx.strokeStyle = this.color;
-      ctx.lineWidth = this.params.lineWidth;
+      ctx.lineWidth = this.params.lineWidth ?? 2;
       ctx.lineJoin = "round";
       ctx.beginPath();
       let started = false;
