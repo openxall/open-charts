@@ -137,6 +137,8 @@ export const Candlestick = (config: CandlestickConfig) => {
     color: config.color,
     layer: config.layer,
     priceTagColor: config.priceTagColor,
+    width: "100%",
+    height: "1000px",
     params: config.params,
 
     compute(data: CandleBubble[]): any[] {

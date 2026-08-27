@@ -50,6 +50,10 @@ export interface SeriesDefinition<
 
   /** Optional price tag color. */
   priceTagColor?: string;
+ 
+  width: string,
+
+  height: string,
 
   /** Series parameters. */
   params: TParams;
