@@ -1,5 +1,5 @@
 // OPEN-CHARTS
-// Copyright (C) 2026 Juan José Caballero Rey - https://github.com/rey-sudo
+// Copyright (C) 2026 Juan José Caballero Rey
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -90,8 +90,8 @@ export const DEFAULT_OPTIONS: ChartOptions = {
 
   colors: {
     // Backgrounds
-    bg: "transparent",
-    bg2: "transparent",
+    bg: "#0b0f14",
+    bg2: "#0b0f14",
     bg3: "rgba(255,255,255,0.1)",
 
     // Grid

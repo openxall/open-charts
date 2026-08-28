@@ -241,11 +241,18 @@ small	12px
 
 /* ── CHART AREA ── */
 .chart-area {
-  flex: 1;
+  width: 100%;
+  flex: 0 0 auto;
+  min-height: 0;
+
   display: flex;
   flex-direction: column;
+
   overflow: hidden;
   position: relative;
+
+  box-sizing: border-box;
+  border: 1px solid transparent;
 }
 
 /* ── PANES ── */

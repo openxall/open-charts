@@ -124,8 +124,11 @@ export interface CandlestickConfig {
   color: string;
   layer: "background" | "foreground";
   priceTagColor: string;
+  width?: string;
+  height?: string;
   params: CandlestickParams;
 }
+
 export const Candlestick = (config: CandlestickConfig) => {
   const series: SeriesDefinition<
     CandleBubble,
@@ -137,8 +140,8 @@ export const Candlestick = (config: CandlestickConfig) => {
     color: config.color,
     layer: config.layer,
     priceTagColor: config.priceTagColor,
-    width: "100%",
-    height: "1000px",
+    width: config.width ?? "100%",
+    height: config.height ?? "1000px",
     params: config.params,
 
     compute(data: CandleBubble[]): any[] {

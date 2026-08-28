@@ -36,6 +36,8 @@ export interface EMAConfig {
   color: string;
   layer: "background" | "foreground";
   priceTagColor: string;
+  width?: string;
+  height?: string;
   params: EMAParams;
 }
 
@@ -46,8 +48,8 @@ export const EMA = (config: EMAConfig) => {
     color: config.color,
     layer: config.layer,
     priceTagColor: config.priceTagColor,
-    width: "100%",
-    height: "500px",
+    width: config.width ?? "100%",
+    height: config.height ?? "500px",
     params: config.params,
 
     compute(data: EMAValue[]): any[] {
